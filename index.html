@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="start-quiz">
+           <h3> Test Your Geographical Knowledge</h3>
+           <button class="start-btn">Start</button>
+           <p>10 Questions</p>
+        </div>
+
+        <div class="Quiz-questions hide">
+            <h3 class="question">Which state do Massachusetts and Pennsylvania both touch?</h3>
+            <div class="answer-btns">
+                <button class="btn">Connecticut</button>
+                <button class="btn">New Jersey</button>
+                <button class="btn" >New York</button>
+                <button class="btn">Vermont</button>
+            </div>
+            <div class="nx">
+                <button class="next-btn hide">Next <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
